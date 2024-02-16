@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.img-fundo{
+   background-image: url(img/Netflix.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-width:100%;
+   min-height:100vh;
+   position: relative;
+}
+
+.img-fundo::before{
+    content: '';
+    background-color: rgb(0, 0, 0, 0.5);
+    min-width:100%;
+    min-height:100%;
+    position: absolute;
+}
+
+.logo img{
+    width: 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+.login{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    width: 450px;
+    height: 670px;
+    background-color: rgba(0,0,0, 0.7);
+    margin: 0px auto;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.email-login{
+    margin-top: 30px
+}
+
+.senha-login{
+    margin-top: 15px
+}
+
+.input-login{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #333;
+    font-size: 14px
+}
+
+.botao-entrar-login{
+    margin-top: 40px
+}
+
+.botao-entrar{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.suporte{
+    color: #b3b3b3;
+    font-size: 13px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between
+}
+
+.check{
+    background-color: #333;
+}
+
+.assinatura{
+    margin-top: 70px;
+    color: #b3b3b3;
+}
+
+.assinatura label{
+    font-weight: 300;
+}
+
+.assinatura a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.assinatura a:hover{
+    text-decoration: underline;
+}
+
+.captcha{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.captcha label{
+    color: #b3b3b3;
+    font-weight: 300;
+}
+.captcha a{
+    color: #0071eb;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.captcha a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 87px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0, 0.7);
+    z-index: 1;
+    color: #b3b3b3;
+    padding: 40px;
+    position: relative;
+}
+
+.top label, a{
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+.body{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.linguagem{
+    margin-top: 40px;
+    display: flex;
+}
+
+.linguagem select{
+    background-image: url(../assets/img/globo.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    height: 50px;
+    width: 140px;
+    background-color: rgb(0,0,0);
+    color: #b3b3b3;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 40px;
+}
+
+.globo{
+    background-color: black;
+    padding: 10px;
+    width: 40px;
+}
+
+
+.globo img{
+    width: 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
